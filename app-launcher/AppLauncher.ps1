@@ -12,6 +12,8 @@ $apps = @(
     [PSCustomObject]@{Name='X'; Kind='Web'; Id='lodlkdfmihgonocnmddehnfgiljnadcf'}
     [PSCustomObject]@{Name='YouTube'; Kind='Web'; Id='agimnkijcaahngcdmfeangaknmldooml'}
     [PSCustomObject]@{Name='はてなブログ'; Kind='Web'; Id='mpehdobhmdnmchfmbbpdcpecoahhceic'}
+    [PSCustomObject]@{Name='Google フォト'; Kind='Web'; Id='ncmjhecbjeaamljdfahankockkkdmedg'}
+    [PSCustomObject]@{Name='NotebookLM'; Kind='Web'; Id='kjfmejlnnfibknebffpdmphoiomckhdb'}
 )
 $windowsNames = @('Burp Suite','Claude','DaVinci Resolve','DeepL','Disney+','Duolingo','Google Chrome','Netflix','OBS Studio','Perplexity','Screenpresso','Slack','TradingView','Visual Studio Code','Wintoys','カメラ','サウンド レコーダー','スマートフォン連携')
 foreach ($name in $windowsNames) {
